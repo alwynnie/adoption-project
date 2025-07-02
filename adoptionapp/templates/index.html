@@ -1,0 +1,23 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Inicio - Adopción de Mascotas</title>
+    <link rel="stylesheet" href="{% static 'main/style_index.css' %}">
+</head>
+<body>
+    <div class="container">
+        <h2>Bienvenido a la Plataforma de Adopción de Mascotas</h2>
+        <p>
+            Encuentra a tu nuevo mejor amigo y ayudanos a darles un hogar a quienes más lo necesitan.<br>
+            Puedes registrarte para adoptar o iniciar sesión si ya tienes una cuenta.
+        </p>
+        <a href="{% url 'register' %}" class="btn">Registrarse</a>
+        <a href="{% url 'login' %}" class="btn" style="margin-top:10px;">Iniciar Sesión</a>
+    </div>
+</body>
+</html>
