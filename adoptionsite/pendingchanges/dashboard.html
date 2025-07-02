@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dashboard - Adopción de Mascotas</title>
+    <link rel="stylesheet" href="style_dashbord.css">
+</head>
+<body>
+    <div class="dashboard-container">
+        <div class="left-panel">
+            <div class="bienvenida">¡Bienvenido, Usuario!</div>
+            <button class="btn-solicitud" onclick="nuevaSolicitud()">Realizar nueva solicitud</button>
+        </div>
+        <div class="right-panel">
+            <h3>Solicitudes realizadas</h3>
+            <div class="solicitudes-list" id="solicitudesList">
+                <div class="solicitud-item">
+                    <strong>Solicitud #2</strong><br>
+                    Fecha: 2024-06-10<br>
+                    Estado: En revisión
+                </div>
+                <div class="solicitud-item">
+                    <strong>Solicitud #1</strong><br>
+                    Fecha: 2024-06-05<br>
+                    Estado: Aprobada
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        function nuevaSolicitud() {
+            alert('Funcionalidad para realizar una nueva solicitud.');
+        }
+    </script>
+</body>
+</html>

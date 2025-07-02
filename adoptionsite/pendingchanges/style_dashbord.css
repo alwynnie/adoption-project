@@ -1,0 +1,49 @@
+        body {
+            background: #f7f7f7;
+        }
+        .dashboard-container {
+            display: flex;
+            max-width: 900px;
+            margin: 40px auto;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            overflow: hidden;
+        }
+        .left-panel {
+            flex: 1;
+            padding: 40px 30px;
+            border-right: 1px solid #eee;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: center;
+        }
+        .right-panel {
+            flex: 2;
+            padding: 40px 30px;
+        }
+        .btn-solicitud {
+            background: #007bff;
+            color: #fff;
+            border: none;
+            padding: 14px 28px;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+        .solicitudes-list {
+            margin-top: 20px;
+        }
+        .solicitud-item {
+            background: #f1f1f1;
+            padding: 15px 20px;
+            border-radius: 6px;
+            margin-bottom: 15px;
+        }
+        .bienvenida {
+            font-size: 1.3em;
+            margin-bottom: 20px;
+            color: #333;
+        }
